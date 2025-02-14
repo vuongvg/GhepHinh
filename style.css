@@ -46,6 +46,9 @@ body {
 
 canvas {
   background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
 }
 
 #GameDiv, #Cocos3dGameContainer, #GameCanvas {
